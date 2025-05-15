@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-image: url("https://wallpapers.com/images/hd/big-blue-moon-denyvdscqfxtjypr.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;}
+
+
+button {
+    border: none;
+
+
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    color: white;
+    background-color: #7c7c7c2b;
+    opacity: 0.8;
+    width: calc(100% - 90px);
+
+}
+
+button {
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+    cursor: pointer;
+}
+
+.caixa-media {
+    margin-top: 30px;
+    width: 95%;
+    max-width: 420px;
+    background: black;
+}
+
+.lupa {
+    height: 20px;
+ 
+
+}
+
+.caixa-maior {
+    background-color: black;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+
+ }
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.caixa-menor {
+     display: flex;
+     align-items: center;
+    margin-top: 30px;
+}
+
+.tempo {
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.descricao {
+    color: white;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+
+.umidade { 
+
+    color: white;
+    margin-top: 30px;
+}
